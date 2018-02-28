@@ -26,6 +26,7 @@
 		45639A2D20465C8400CAB7CE /* SQCIColordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45639A2C20465C8400CAB7CE /* SQCIColordView.m */; };
 		45639A2E20465C9000CAB7CE /* SQCIColordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45639A2C20465C8400CAB7CE /* SQCIColordView.m */; };
 		45639A2F20465C9800CAB7CE /* SQCIColordView.h in Headers */ = {isa = PBXBuildFile; fileRef = 45639A2B20465C8400CAB7CE /* SQCIColordView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45639A3320467B2300CAB7CE /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45639A2520465B1600CAB7CE /* Masonry.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45639A3320467B2300CAB7CE /* Masonry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
