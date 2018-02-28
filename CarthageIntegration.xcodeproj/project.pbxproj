@@ -23,11 +23,9 @@
 		45639A212046597300CAB7CE /* SQCIDateFormatHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 456399C02046522F00CAB7CE /* SQCIDateFormatHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		45639A2620465B1600CAB7CE /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45639A2520465B1600CAB7CE /* Masonry.framework */; };
 		45639A2720465B1600CAB7CE /* Masonry.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 45639A2520465B1600CAB7CE /* Masonry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		45639A2A20465BB100CAB7CE /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45639A2520465B1600CAB7CE /* Masonry.framework */; };
 		45639A2D20465C8400CAB7CE /* SQCIColordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45639A2C20465C8400CAB7CE /* SQCIColordView.m */; };
 		45639A2E20465C9000CAB7CE /* SQCIColordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45639A2C20465C8400CAB7CE /* SQCIColordView.m */; };
 		45639A2F20465C9800CAB7CE /* SQCIColordView.h in Headers */ = {isa = PBXBuildFile; fileRef = 45639A2B20465C8400CAB7CE /* SQCIColordView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		45639A3120465E3200CAB7CE /* Cartfile in Headers */ = {isa = PBXBuildFile; fileRef = 45639A3020465E3200CAB7CE /* Cartfile */; settings = {ATTRIBUTES = (Private, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,7 +94,6 @@
 		45639A2520465B1600CAB7CE /* Masonry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Masonry.framework; path = Carthage/Build/iOS/Masonry.framework; sourceTree = "<group>"; };
 		45639A2B20465C8400CAB7CE /* SQCIColordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQCIColordView.h; sourceTree = "<group>"; };
 		45639A2C20465C8400CAB7CE /* SQCIColordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQCIColordView.m; sourceTree = "<group>"; };
-		45639A3020465E3200CAB7CE /* Cartfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +123,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45639A2A20465BB100CAB7CE /* Masonry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +140,6 @@
 		45639982204651F100CAB7CE = {
 			isa = PBXGroup;
 			children = (
-				45639A3020465E3200CAB7CE /* Cartfile */,
 				45639A2520465B1600CAB7CE /* Masonry.framework */,
 				4563998D204651F100CAB7CE /* CarthageIntegration */,
 				456399A6204651F100CAB7CE /* CarthageIntegrationTests */,
@@ -241,7 +236,6 @@
 				456399D82046545600CAB7CE /* SQCIDateHelper.h in Headers */,
 				45639A212046597300CAB7CE /* SQCIDateFormatHelper.h in Headers */,
 				45639A2F20465C9800CAB7CE /* SQCIColordView.h in Headers */,
-				45639A3120465E3200CAB7CE /* Cartfile in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
