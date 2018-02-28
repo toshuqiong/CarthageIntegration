@@ -21,12 +21,10 @@
 		456399D82046545600CAB7CE /* SQCIDateHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 456399CA2046545600CAB7CE /* SQCIDateHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		456399DF204654DF00CAB7CE /* SQCIDateFormatHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 456399C12046522F00CAB7CE /* SQCIDateFormatHelper.m */; };
 		45639A212046597300CAB7CE /* SQCIDateFormatHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 456399C02046522F00CAB7CE /* SQCIDateFormatHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		45639A2620465B1600CAB7CE /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45639A2520465B1600CAB7CE /* Masonry.framework */; };
-		45639A2720465B1600CAB7CE /* Masonry.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 45639A2520465B1600CAB7CE /* Masonry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		45639A2D20465C8400CAB7CE /* SQCIColordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45639A2C20465C8400CAB7CE /* SQCIColordView.m */; };
 		45639A2E20465C9000CAB7CE /* SQCIColordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45639A2C20465C8400CAB7CE /* SQCIColordView.m */; };
 		45639A2F20465C9800CAB7CE /* SQCIColordView.h in Headers */ = {isa = PBXBuildFile; fileRef = 45639A2B20465C8400CAB7CE /* SQCIColordView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		45639A3320467B2300CAB7CE /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45639A2520465B1600CAB7CE /* Masonry.framework */; };
+		45639A3520467BBA00CAB7CE /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45639A3420467BB900CAB7CE /* Masonry.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,7 +58,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				45639A2720465B1600CAB7CE /* Masonry.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -92,9 +89,9 @@
 		456399D02046545600CAB7CE /* SQCIDateHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQCIDateHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		456399D52046545600CAB7CE /* SQCIDateHelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQCIDateHelperTests.m; sourceTree = "<group>"; };
 		456399D72046545600CAB7CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		45639A2520465B1600CAB7CE /* Masonry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Masonry.framework; path = Carthage/Build/iOS/Masonry.framework; sourceTree = "<group>"; };
 		45639A2B20465C8400CAB7CE /* SQCIColordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQCIColordView.h; sourceTree = "<group>"; };
 		45639A2C20465C8400CAB7CE /* SQCIColordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQCIColordView.m; sourceTree = "<group>"; };
+		45639A3420467BB900CAB7CE /* Masonry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Masonry.framework; path = Carthage/Build/iOS/Masonry.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +99,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45639A2620465B1600CAB7CE /* Masonry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,7 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				45639A3320467B2300CAB7CE /* Masonry.framework in Frameworks */,
+				45639A3520467BBA00CAB7CE /* Masonry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,7 +138,6 @@
 		45639982204651F100CAB7CE = {
 			isa = PBXGroup;
 			children = (
-				45639A2520465B1600CAB7CE /* Masonry.framework */,
 				4563998D204651F100CAB7CE /* CarthageIntegration */,
 				456399A6204651F100CAB7CE /* CarthageIntegrationTests */,
 				456399B1204651F100CAB7CE /* CarthageIntegrationUITests */,
@@ -224,6 +219,7 @@
 		45639A2920465BB100CAB7CE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				45639A3420467BB900CAB7CE /* Masonry.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
