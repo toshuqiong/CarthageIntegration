@@ -8,7 +8,6 @@
 
 
 #import "SQCIColordView.h"
-#import <Masonry/Masonry.h>
 
 @implementation SQCIColordView
 

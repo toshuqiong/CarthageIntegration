@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-//@import Masonry;
+@import Masonry;
 
 @interface SQCIColordView : UIView
 
