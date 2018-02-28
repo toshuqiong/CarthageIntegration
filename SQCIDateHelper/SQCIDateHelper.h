@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-#import <SQCIDateHelper/SQCIDateFormatHelper.h>
+//#import <SQCIDateHelper/SQCIDateFormatHelper.h>
+
 
 //! Project version number for SQCIDateHelper.
 FOUNDATION_EXPORT double SQCIDateHelperVersionNumber;
@@ -18,3 +19,5 @@ FOUNDATION_EXPORT const unsigned char SQCIDateHelperVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <SQCIDateHelper/PublicHeader.h>
 
+#import "SQCIDateFormatHelper.h"
+#import "SQCIColordView.h"

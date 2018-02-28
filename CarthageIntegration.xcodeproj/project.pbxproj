@@ -24,6 +24,9 @@
 		45639A2620465B1600CAB7CE /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45639A2520465B1600CAB7CE /* Masonry.framework */; };
 		45639A2720465B1600CAB7CE /* Masonry.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 45639A2520465B1600CAB7CE /* Masonry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		45639A2A20465BB100CAB7CE /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45639A2520465B1600CAB7CE /* Masonry.framework */; };
+		45639A2D20465C8400CAB7CE /* SQCIColordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45639A2C20465C8400CAB7CE /* SQCIColordView.m */; };
+		45639A2E20465C9000CAB7CE /* SQCIColordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45639A2C20465C8400CAB7CE /* SQCIColordView.m */; };
+		45639A2F20465C9800CAB7CE /* SQCIColordView.h in Headers */ = {isa = PBXBuildFile; fileRef = 45639A2B20465C8400CAB7CE /* SQCIColordView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +93,8 @@
 		456399D52046545600CAB7CE /* SQCIDateHelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQCIDateHelperTests.m; sourceTree = "<group>"; };
 		456399D72046545600CAB7CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45639A2520465B1600CAB7CE /* Masonry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Masonry.framework; path = Carthage/Build/iOS/Masonry.framework; sourceTree = "<group>"; };
+		45639A2B20465C8400CAB7CE /* SQCIColordView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQCIColordView.h; sourceTree = "<group>"; };
+		45639A2C20465C8400CAB7CE /* SQCIColordView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQCIColordView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +179,8 @@
 				4563999D204651F100CAB7CE /* main.m */,
 				456399C02046522F00CAB7CE /* SQCIDateFormatHelper.h */,
 				456399C12046522F00CAB7CE /* SQCIDateFormatHelper.m */,
+				45639A2B20465C8400CAB7CE /* SQCIColordView.h */,
+				45639A2C20465C8400CAB7CE /* SQCIColordView.m */,
 			);
 			path = CarthageIntegration;
 			sourceTree = "<group>";
@@ -230,6 +237,7 @@
 			files = (
 				456399D82046545600CAB7CE /* SQCIDateHelper.h in Headers */,
 				45639A212046597300CAB7CE /* SQCIDateFormatHelper.h in Headers */,
+				45639A2F20465C9800CAB7CE /* SQCIColordView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +436,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				45639993204651F100CAB7CE /* ViewController.m in Sources */,
+				45639A2D20465C8400CAB7CE /* SQCIColordView.m in Sources */,
 				456399C22046522F00CAB7CE /* SQCIDateFormatHelper.m in Sources */,
 				4563999E204651F100CAB7CE /* main.m in Sources */,
 				45639990204651F100CAB7CE /* AppDelegate.m in Sources */,
@@ -454,6 +463,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45639A2E20465C9000CAB7CE /* SQCIColordView.m in Sources */,
 				456399DF204654DF00CAB7CE /* SQCIDateFormatHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
