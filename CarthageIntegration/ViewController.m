@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "SQCIDateHelper.h"
+#import "SQCIDateFormatHelper.h"
 
 @interface ViewController ()
 
@@ -19,7 +19,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    NSLog(@"%@", [[SQCIDateHelper new] date:@"2018-02-28 11:05" formatFrom:@"yyyy-MM-dd HH:mm" formatTo:@"MM-dd HH:mm"]);
+    NSLog(@"%@", [[SQCIDateFormatHelper new] date:@"2018-02-28 11:05" formatFrom:@"yyyy-MM-dd HH:mm" formatTo:@"MM-dd HH:mm"]);
     
 }
 

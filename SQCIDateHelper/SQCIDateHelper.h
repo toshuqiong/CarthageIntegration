@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import "SQCIDateHelper.h"
+#import <SQCIDateHelper/SQCIDateFormatHelper.h>
 
 //! Project version number for SQCIDateHelper.
 FOUNDATION_EXPORT double SQCIDateHelperVersionNumber;

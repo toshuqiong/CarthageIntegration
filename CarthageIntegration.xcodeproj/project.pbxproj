@@ -15,11 +15,11 @@
 		4563999E204651F100CAB7CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4563999D204651F100CAB7CE /* main.m */; };
 		456399A8204651F100CAB7CE /* CarthageIntegrationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 456399A7204651F100CAB7CE /* CarthageIntegrationTests.m */; };
 		456399B3204651F100CAB7CE /* CarthageIntegrationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 456399B2204651F100CAB7CE /* CarthageIntegrationUITests.m */; };
-		456399C22046522F00CAB7CE /* SQCIDateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 456399C12046522F00CAB7CE /* SQCIDateHelper.m */; };
+		456399C22046522F00CAB7CE /* SQCIDateFormatHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 456399C12046522F00CAB7CE /* SQCIDateFormatHelper.m */; };
 		456399D12046545600CAB7CE /* SQCIDateHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 456399C82046545500CAB7CE /* SQCIDateHelper.framework */; };
 		456399D62046545600CAB7CE /* SQCIDateHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 456399D52046545600CAB7CE /* SQCIDateHelperTests.m */; };
 		456399D82046545600CAB7CE /* SQCIDateHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 456399CA2046545600CAB7CE /* SQCIDateHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		456399DF204654DF00CAB7CE /* SQCIDateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 456399C12046522F00CAB7CE /* SQCIDateHelper.m */; };
+		456399DF204654DF00CAB7CE /* SQCIDateFormatHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 456399C12046522F00CAB7CE /* SQCIDateFormatHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,8 +63,8 @@
 		456399AE204651F100CAB7CE /* CarthageIntegrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarthageIntegrationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		456399B2204651F100CAB7CE /* CarthageIntegrationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarthageIntegrationUITests.m; sourceTree = "<group>"; };
 		456399B4204651F100CAB7CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		456399C02046522F00CAB7CE /* SQCIDateHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQCIDateHelper.h; sourceTree = "<group>"; };
-		456399C12046522F00CAB7CE /* SQCIDateHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQCIDateHelper.m; sourceTree = "<group>"; };
+		456399C02046522F00CAB7CE /* SQCIDateFormatHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQCIDateFormatHelper.h; sourceTree = "<group>"; };
+		456399C12046522F00CAB7CE /* SQCIDateFormatHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQCIDateFormatHelper.m; sourceTree = "<group>"; };
 		456399C82046545500CAB7CE /* SQCIDateHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SQCIDateHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		456399CA2046545600CAB7CE /* SQCIDateHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQCIDateHelper.h; sourceTree = "<group>"; };
 		456399CB2046545600CAB7CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -149,8 +149,8 @@
 				45639999204651F100CAB7CE /* LaunchScreen.storyboard */,
 				4563999C204651F100CAB7CE /* Info.plist */,
 				4563999D204651F100CAB7CE /* main.m */,
-				456399C02046522F00CAB7CE /* SQCIDateHelper.h */,
-				456399C12046522F00CAB7CE /* SQCIDateHelper.m */,
+				456399C02046522F00CAB7CE /* SQCIDateFormatHelper.h */,
+				456399C12046522F00CAB7CE /* SQCIDateFormatHelper.m */,
 			);
 			path = CarthageIntegration;
 			sourceTree = "<group>";
@@ -396,7 +396,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				45639993204651F100CAB7CE /* ViewController.m in Sources */,
-				456399C22046522F00CAB7CE /* SQCIDateHelper.m in Sources */,
+				456399C22046522F00CAB7CE /* SQCIDateFormatHelper.m in Sources */,
 				4563999E204651F100CAB7CE /* main.m in Sources */,
 				45639990204651F100CAB7CE /* AppDelegate.m in Sources */,
 			);
@@ -422,7 +422,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				456399DF204654DF00CAB7CE /* SQCIDateHelper.m in Sources */,
+				456399DF204654DF00CAB7CE /* SQCIDateFormatHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

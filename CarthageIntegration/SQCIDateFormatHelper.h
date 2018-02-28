@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface SQCIDateHelper : NSObject
+@interface SQCIDateFormatHelper : NSObject
 
 - (NSString *)date:(NSString *)dateString formatFrom:(NSString *)formatFrom formatTo:(NSString *)formatTo;
 

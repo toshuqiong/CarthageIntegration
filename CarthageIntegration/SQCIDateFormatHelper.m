@@ -6,9 +6,9 @@
 //  Copyright © 2018年 shuqiong. All rights reserved.
 //
 
-#import "SQCIDateHelper.h"
+#import "SQCIDateFormatHelper.h"
 
-@implementation SQCIDateHelper
+@implementation SQCIDateFormatHelper
 
 - (NSString *)date:(NSString *)dateString formatFrom:(NSString *)formatFrom formatTo:(NSString *)formatTo {
     NSDateFormatter *formatterFrom = [[NSDateFormatter alloc] init];
