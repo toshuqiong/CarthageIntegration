@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "SQCIDateFormatHelper.h"
+#import <Masonry/Masonry.h>
 
 @interface ViewController ()
 
@@ -21,6 +22,13 @@
     
     NSLog(@"%@", [[SQCIDateFormatHelper new] date:@"2018-02-28 11:05" formatFrom:@"yyyy-MM-dd HH:mm" formatTo:@"MM-dd HH:mm"]);
     
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.backgroundColor = [UIColor redColor];
+    [self.view addSubview:button];
+    [button mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.width.and.height.mas_equalTo(200);
+        make.centerX.and.centerY.mas_equalTo(self.view);
+    }];
 }
 
 
