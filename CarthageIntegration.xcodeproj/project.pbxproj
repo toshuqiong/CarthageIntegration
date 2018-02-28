@@ -20,6 +20,7 @@
 		456399D62046545600CAB7CE /* SQCIDateHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 456399D52046545600CAB7CE /* SQCIDateHelperTests.m */; };
 		456399D82046545600CAB7CE /* SQCIDateHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 456399CA2046545600CAB7CE /* SQCIDateHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		456399DF204654DF00CAB7CE /* SQCIDateFormatHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 456399C12046522F00CAB7CE /* SQCIDateFormatHelper.m */; };
+		45639A212046597300CAB7CE /* SQCIDateFormatHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 456399C02046522F00CAB7CE /* SQCIDateFormatHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -199,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				456399D82046545600CAB7CE /* SQCIDateHelper.h in Headers */,
+				45639A212046597300CAB7CE /* SQCIDateFormatHelper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
