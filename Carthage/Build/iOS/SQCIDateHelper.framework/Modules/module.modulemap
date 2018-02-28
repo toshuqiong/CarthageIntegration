@@ -1,0 +1,6 @@
+framework module SQCIDateHelper {
+  umbrella header "SQCIDateHelper.h"
+
+  export *
+  module * { export * }
+}

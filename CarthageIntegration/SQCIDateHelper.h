@@ -10,4 +10,6 @@
 
 @interface SQCIDateHelper : NSObject
 
+- (NSString *)date:(NSString *)dateString formatFrom:(NSString *)formatFrom formatTo:(NSString *)formatTo;
+
 @end

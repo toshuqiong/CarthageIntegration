@@ -15,6 +15,11 @@
 		4563999E204651F100CAB7CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4563999D204651F100CAB7CE /* main.m */; };
 		456399A8204651F100CAB7CE /* CarthageIntegrationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 456399A7204651F100CAB7CE /* CarthageIntegrationTests.m */; };
 		456399B3204651F100CAB7CE /* CarthageIntegrationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 456399B2204651F100CAB7CE /* CarthageIntegrationUITests.m */; };
+		456399C22046522F00CAB7CE /* SQCIDateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 456399C12046522F00CAB7CE /* SQCIDateHelper.m */; };
+		456399D12046545600CAB7CE /* SQCIDateHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 456399C82046545500CAB7CE /* SQCIDateHelper.framework */; };
+		456399D62046545600CAB7CE /* SQCIDateHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 456399D52046545600CAB7CE /* SQCIDateHelperTests.m */; };
+		456399D82046545600CAB7CE /* SQCIDateHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 456399CA2046545600CAB7CE /* SQCIDateHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		456399DF204654DF00CAB7CE /* SQCIDateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 456399C12046522F00CAB7CE /* SQCIDateHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +36,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 4563998A204651F100CAB7CE;
 			remoteInfo = CarthageIntegration;
+		};
+		456399D22046545600CAB7CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45639983204651F100CAB7CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 456399C72046545500CAB7CE;
+			remoteInfo = SQCIDateHelper;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -51,6 +63,14 @@
 		456399AE204651F100CAB7CE /* CarthageIntegrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarthageIntegrationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		456399B2204651F100CAB7CE /* CarthageIntegrationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarthageIntegrationUITests.m; sourceTree = "<group>"; };
 		456399B4204651F100CAB7CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		456399C02046522F00CAB7CE /* SQCIDateHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQCIDateHelper.h; sourceTree = "<group>"; };
+		456399C12046522F00CAB7CE /* SQCIDateHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQCIDateHelper.m; sourceTree = "<group>"; };
+		456399C82046545500CAB7CE /* SQCIDateHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SQCIDateHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		456399CA2046545600CAB7CE /* SQCIDateHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQCIDateHelper.h; sourceTree = "<group>"; };
+		456399CB2046545600CAB7CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		456399D02046545600CAB7CE /* SQCIDateHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQCIDateHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		456399D52046545600CAB7CE /* SQCIDateHelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQCIDateHelperTests.m; sourceTree = "<group>"; };
+		456399D72046545600CAB7CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +95,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		456399C42046545500CAB7CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		456399CD2046545600CAB7CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456399D12046545600CAB7CE /* SQCIDateHelper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -84,6 +119,8 @@
 				4563998D204651F100CAB7CE /* CarthageIntegration */,
 				456399A6204651F100CAB7CE /* CarthageIntegrationTests */,
 				456399B1204651F100CAB7CE /* CarthageIntegrationUITests */,
+				456399C92046545600CAB7CE /* SQCIDateHelper */,
+				456399D42046545600CAB7CE /* SQCIDateHelperTests */,
 				4563998C204651F100CAB7CE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,6 +131,8 @@
 				4563998B204651F100CAB7CE /* CarthageIntegration.app */,
 				456399A3204651F100CAB7CE /* CarthageIntegrationTests.xctest */,
 				456399AE204651F100CAB7CE /* CarthageIntegrationUITests.xctest */,
+				456399C82046545500CAB7CE /* SQCIDateHelper.framework */,
+				456399D02046545600CAB7CE /* SQCIDateHelperTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,6 +149,8 @@
 				45639999204651F100CAB7CE /* LaunchScreen.storyboard */,
 				4563999C204651F100CAB7CE /* Info.plist */,
 				4563999D204651F100CAB7CE /* main.m */,
+				456399C02046522F00CAB7CE /* SQCIDateHelper.h */,
+				456399C12046522F00CAB7CE /* SQCIDateHelper.m */,
 			);
 			path = CarthageIntegration;
 			sourceTree = "<group>";
@@ -132,7 +173,36 @@
 			path = CarthageIntegrationUITests;
 			sourceTree = "<group>";
 		};
+		456399C92046545600CAB7CE /* SQCIDateHelper */ = {
+			isa = PBXGroup;
+			children = (
+				456399CA2046545600CAB7CE /* SQCIDateHelper.h */,
+				456399CB2046545600CAB7CE /* Info.plist */,
+			);
+			path = SQCIDateHelper;
+			sourceTree = "<group>";
+		};
+		456399D42046545600CAB7CE /* SQCIDateHelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				456399D52046545600CAB7CE /* SQCIDateHelperTests.m */,
+				456399D72046545600CAB7CE /* Info.plist */,
+			);
+			path = SQCIDateHelperTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		456399C52046545500CAB7CE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456399D82046545600CAB7CE /* SQCIDateHelper.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		4563998A204651F100CAB7CE /* CarthageIntegration */ = {
@@ -188,6 +258,42 @@
 			productReference = 456399AE204651F100CAB7CE /* CarthageIntegrationUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		456399C72046545500CAB7CE /* SQCIDateHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 456399D92046545600CAB7CE /* Build configuration list for PBXNativeTarget "SQCIDateHelper" */;
+			buildPhases = (
+				456399C32046545500CAB7CE /* Sources */,
+				456399C42046545500CAB7CE /* Frameworks */,
+				456399C52046545500CAB7CE /* Headers */,
+				456399C62046545500CAB7CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQCIDateHelper;
+			productName = SQCIDateHelper;
+			productReference = 456399C82046545500CAB7CE /* SQCIDateHelper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		456399CF2046545600CAB7CE /* SQCIDateHelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 456399DC2046545600CAB7CE /* Build configuration list for PBXNativeTarget "SQCIDateHelperTests" */;
+			buildPhases = (
+				456399CC2046545600CAB7CE /* Sources */,
+				456399CD2046545600CAB7CE /* Frameworks */,
+				456399CE2046545600CAB7CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				456399D32046545600CAB7CE /* PBXTargetDependency */,
+			);
+			name = SQCIDateHelperTests;
+			productName = SQCIDateHelperTests;
+			productReference = 456399D02046545600CAB7CE /* SQCIDateHelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -211,6 +317,14 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 4563998A204651F100CAB7CE;
 					};
+					456399C72046545500CAB7CE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					456399CF2046545600CAB7CE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 45639986204651F100CAB7CE /* Build configuration list for PBXProject "CarthageIntegration" */;
@@ -229,6 +343,8 @@
 				4563998A204651F100CAB7CE /* CarthageIntegration */,
 				456399A2204651F100CAB7CE /* CarthageIntegrationTests */,
 				456399AD204651F100CAB7CE /* CarthageIntegrationUITests */,
+				456399C72046545500CAB7CE /* SQCIDateHelper */,
+				456399CF2046545600CAB7CE /* SQCIDateHelperTests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,6 +374,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		456399C62046545500CAB7CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		456399CE2046545600CAB7CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -266,6 +396,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				45639993204651F100CAB7CE /* ViewController.m in Sources */,
+				456399C22046522F00CAB7CE /* SQCIDateHelper.m in Sources */,
 				4563999E204651F100CAB7CE /* main.m in Sources */,
 				45639990204651F100CAB7CE /* AppDelegate.m in Sources */,
 			);
@@ -287,6 +418,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		456399C32046545500CAB7CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456399DF204654DF00CAB7CE /* SQCIDateHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		456399CC2046545600CAB7CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456399D62046545600CAB7CE /* SQCIDateHelperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -299,6 +446,11 @@
 			isa = PBXTargetDependency;
 			target = 4563998A204651F100CAB7CE /* CarthageIntegration */;
 			targetProxy = 456399AF204651F100CAB7CE /* PBXContainerItemProxy */;
+		};
+		456399D32046545600CAB7CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 456399C72046545500CAB7CE /* SQCIDateHelper */;
+			targetProxy = 456399D22046545600CAB7CE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -512,6 +664,78 @@
 			};
 			name = Release;
 		};
+		456399DA2046545600CAB7CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ZZ8Q2H95F5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SQCIDateHelper/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuqiong.SQCIDateHelper;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		456399DB2046545600CAB7CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ZZ8Q2H95F5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SQCIDateHelper/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuqiong.SQCIDateHelper;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		456399DD2046545600CAB7CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZZ8Q2H95F5;
+				INFOPLIST_FILE = SQCIDateHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuqiong.SQCIDateHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		456399DE2046545600CAB7CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZZ8Q2H95F5;
+				INFOPLIST_FILE = SQCIDateHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shuqiong.SQCIDateHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -547,6 +771,24 @@
 			buildConfigurations = (
 				456399BE204651F100CAB7CE /* Debug */,
 				456399BF204651F100CAB7CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		456399D92046545600CAB7CE /* Build configuration list for PBXNativeTarget "SQCIDateHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				456399DA2046545600CAB7CE /* Debug */,
+				456399DB2046545600CAB7CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		456399DC2046545600CAB7CE /* Build configuration list for PBXNativeTarget "SQCIDateHelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				456399DD2046545600CAB7CE /* Debug */,
+				456399DE2046545600CAB7CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
