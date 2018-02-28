@@ -6,8 +6,9 @@
 //  Copyright © 2018年 shuqiong. All rights reserved.
 //
 
-@import Masonry;
+
 #import "SQCIColordView.h"
+#import <Masonry/Masonry.h>
 
 @implementation SQCIColordView
 
